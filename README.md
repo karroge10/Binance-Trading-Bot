@@ -8,8 +8,8 @@ Features:
 * When RSI reaches 70, you're in position and sell price is higher than buy price, bot will try to sell.
 
 ## Usage
+* Follow this tutorial to install TA-Lib library https://github.com/mrjbq7/ta-lib.
 * Run `pip install -r requirements.txt` to install all required modules.
-* Make sure to download the whl file for TA-Lib library from https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib. You can follow this tutorial https://github.com/mrjbq7/ta-lib
 * Enter your personal binance keys in config.py files.
 * Change TRADE_SYMBOL if you want to trade different token pair (Default = ETH/USDT).
 * Change TRADE_QUANTITY if you want to trade different amount of coins.
